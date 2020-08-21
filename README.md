@@ -5,6 +5,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Author
 * Anna Adhiambo
 
+## Description
+* An application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational.
+* Here is the [link](https://annaadhiambo.github.io/Quotes-app/) to my website.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
