@@ -21,6 +21,13 @@ $ cd directory-name
 $ code .
 ```
 
+## Technology Used
+* HTML-For Building Mark Up pages
+* CSS-For styling User Interface
+* Bootsrap-For making webpage responsive
+* Angular 
+* Typscript
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
