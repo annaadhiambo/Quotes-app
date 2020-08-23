@@ -9,12 +9,12 @@ import { Quotes } from '../quotes';
 export class QuotesComponent implements OnInit {
 
   quotes:Quotes[] = [
-    new Quotes(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son',new Date(2020,3,14)),
-    new Quotes(2,'Buy Cookies','I have to buy cookies for the parrot',new Date(2019,6,9)),
-    new Quotes(3,'Get new Phone Case','Diana has her birthday coming up soon',new Date(2022,1,12)),
-    new Quotes(4,'Get Dog Food','Pupper likes expensive snacks',new Date(2019,0,18)),
-    new Quotes(5,'Solve math homework','Damn Math',new Date(2019,2,14)),
-    new Quotes(6,'Plot my world domination plan','Cause I am an evil overlord',new Date(2030,3,14)),
+    new Quotes(1, 'Quoted by Winston Churchill.', 'Never bend your head. Always hold it high. Look the world straight in the eye.',new Date(2020,3,14)),
+    new Quotes(2,'Quoted by Mutahi Kagwe','If You can get it ,I can get it,anyone can get it',new Date(2020,6,9)),
+    new Quotes(3,'Quoted by Crevance Kate','Ignorance and prejudice are fuelling the spread of a preventable disease.  World AIDS Day, 1 December is an opportunity for people worldwide to unite in the fight against HIV and AIDS.',new Date(2013,1,12)),
+    new Quotes(4,'Quoted by  Aggie Cromwell','Magic is really very simple, all you’ve got to do is want something and then let yourself have it.',new Date(2019,4,18)),
+    new Quotes(5,'Quoted by Phil Nickinson','The future of mobile is the future of online. It is how people access online content now.',new Date(2019,2,14)),
+    new Quotes(6,'Quoted by Ahonen aknon','Growth of computer and technology careers is becoming more and more industry-agnostic.',new Date(2030,3,14)),
   ];
 
   toggleDetails(index){

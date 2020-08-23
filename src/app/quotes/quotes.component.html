@@ -1,5 +1,6 @@
-<div class="container">
+<div class="container bg-warning">
   <h1>Welcome To My App Quotes</h1>
+  <p>This app allows you to get quotes from different people around the world. Feel free to add a quote.</p>
   <hr>
 
   <div class="row">
@@ -7,7 +8,7 @@
       <div *ngFor='let quotes of quotes;let i = index'>
         <div>
           <h6 id={{i}} appStrikethrough>{{quotes.name}} due on {{quotes.completeDate|date|uppercase}}</h6>
-          <button (click)='toggleDetails(i)' class="btn btn-primary">Toggle Details</button>
+          <button (click)='toggleDetails(i)' class="btn btn-primary">View More</button>
         </div>
 
         <div *ngIf='quotes.showDescription'>
@@ -20,5 +21,4 @@
     </div>
   </div>
 
-  <p *ngIf='quotes.length > 5'>You have too many quotes</p>
 </div>

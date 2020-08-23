@@ -1,44 +1,4 @@
-<!-- <div class="container-fluid bg-secondary text-light mine">
-  <h2 class="text-center">Create new Quotes</h2>
-  <div class="title-underline bg-primary"></div>
-  <hr>
-  <div >
-  <form (ngSubmit)='submitQuotes()' #quotesForm ='ngForm' >
-      <div class="form-group">
-
-          <label for="name">Name</label>
-          <input type="text" required class="form-control" id="publisher" [(ngModel)]="newQuotes.publisher" name="publisher" #publisher='ngModel' >
-          <p [hidden]="publisher.valid || publisher.pristine" class="alert alert-danger">
-              <small>Enter Name</small></p>
-
-      </div>
-      <div class="form-group">
-
-          <label for="quote">Quote</label>
-          <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuotes.quotes" name="quotes" #quotes='ngModel'required></textarea>
-          <p [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
-                  <small>Enter Quote</small></p>
-      </div>
-      <div class="form-group">
-
-          <label for="author">Author</label>
-          <input type="text" required class="form-control" id="author" [(ngModel)]="newQuotes.author" name="author" #author='ngModel'>
-          <p [hidden]="author.valid || author.pristine" class="alert alert-danger">
-                  <small>Enter Author of the quote</small></p>
-      </div>
-      <div class="form-group">
-          <label for="dDay">Date</label>
-          <input type='date' id="complete" class="form-control" [(ngModel)]="newQuotes.myDate" name="myDte" #myDate='ngModel' required>
-          <p [hidden]="myDate.valid || myDate.pristine" class="alert alert-danger">
-                  <small>Pick date</small></p>
-      </div>
-      <button type="submit" class="btn btn-success m-3 btn-lg">Submit Quote</button>
-  </form>
-  </div>
-</div> -->
-
-
-<div class="container-fluid bg-warning">
+<div class="container-fluid bg-danger">
     <h2 class="text-center">Create new Quotes</h2>
     <hr>
     <form (ngSubmit)='submitQuotes()' #quotesForm='ngForm'>
@@ -58,7 +18,14 @@
               <p>Enter Quote </p>
             </div>
         </div>
-        
+        <div class="form-group">
+
+          <label for="author">Author</label>
+          <input type="text" class="form-control" id="author" [(ngModel)]="newQuotes.name" name="author" #author='ngModel' required>
+          <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+            <p>Enter Author of the quote</p>
+          </div>
+        </div>
         
         <div class="form-group">
   

@@ -15,6 +15,14 @@ export class QuotesDetailComponent implements OnInit {
     this.isComplete.emit(complete);
   }
 
+  quotesUpvote(complete:boolean){
+    this.isComplete.emit(complete);
+  }
+
+  quotesDownvote(complete:boolean){
+    this.isComplete.emit(complete);
+  }
+
   
   constructor() { }
 
