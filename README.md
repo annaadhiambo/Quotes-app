@@ -28,6 +28,9 @@ $ code .
 * Angular 
 * Typscript
 
+## BDD(Behavior Driven Development)
+* Still working on the project.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
