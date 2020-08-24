@@ -16,11 +16,11 @@ export class QuotesDetailComponent implements OnInit {
   }
 
   quotesUpvote(complete:boolean){
-    this.isComplete.emit(complete);
+    this.quotes;
   }
 
   quotesDownvote(complete:boolean){
-    this.isComplete.emit(complete);
+    this.quotes;
   }
 
   
