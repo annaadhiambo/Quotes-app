@@ -4,11 +4,18 @@ h1{
     
 }
 p{
-    font-weight: bold;
+    font-weight: bolder;
     font-size: larger;
     font-style: italic;
     text-align: center;
 }
 button{
     color:#fff;
+}
+#back-image{
+    background-image: url(../../assets/ann.jpg);
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
 }
