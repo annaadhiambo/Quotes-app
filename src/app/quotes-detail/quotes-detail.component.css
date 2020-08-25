@@ -8,3 +8,8 @@ p{
 button{
     color: green;
 }
+#btn{
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 3px;
+}
